@@ -3,6 +3,7 @@ package com.capgemini.types;
 import com.capgemini.domain.ActorEntity;
 import com.capgemini.domain.StudioEntity;
 
+import java.time.LocalDate;
 import java.util.Collection;
 import java.util.Date;
 
@@ -13,7 +14,7 @@ public class FilmTOBuilder {
     private String kind;
     private Enum type;
     private Integer length;
-    private Date premierDate;
+    private LocalDate premierDate;
     private String country;
     private Boolean is3d;
     private Long budget;
@@ -47,7 +48,7 @@ public class FilmTOBuilder {
         return this;
     }
 
-    public FilmTOBuilder withPremierDate(Date premierDate) {
+    public FilmTOBuilder withPremierDate(LocalDate premierDate) {
         this.premierDate = premierDate;
         return this;
     }

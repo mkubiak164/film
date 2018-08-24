@@ -1,4 +1,6 @@
 package com.capgemini.dao;
 
-public interface StudioDAO {
+import com.capgemini.domain.StudioEntity;
+
+public interface StudioDAO extends Dao<StudioEntity, Integer> {
 }

@@ -26,10 +26,10 @@ public class ActorEntity extends BaseEntity {
     @Column(name="date_of_birth")
     private Date dateOfBirth;
 
-    @OneToMany(mappedBy = "actor", cascade = CascadeType.REMOVE)
-    private Collection<StudioEntity> studioEntities;
+    @ManyToOne
+    private StudioEntity studio;
 
-    @ManyToMany
+    @ManyToMany (cascade = CascadeType.REMOVE)
     @JoinTable(name="film",
                 joinColumns = {@JoinColumn(name = "actor_id")},
                 inverseJoinColumns = { @JoinColumn(name = "film_id")}
@@ -37,6 +37,7 @@ public class ActorEntity extends BaseEntity {
     private Collection<FilmEntity> filmEntities;
 
     @Version
+    @Column(name="version")
     private Long version;
 
     public Integer getId() {
@@ -71,12 +72,12 @@ public class ActorEntity extends BaseEntity {
         this.dateOfBirth = dateOfBirth;
     }
 
-    public Collection<StudioEntity> getStudioEntities() {
-        return studioEntities;
+    public StudioEntity getStudio() {
+        return studio;
     }
 
-    public void setStudioEntities(Collection<StudioEntity> studioEntities) {
-        this.studioEntities = studioEntities;
+    public void setStudio(StudioEntity studio) {
+        this.studio = studio;
     }
 
     public Collection<FilmEntity> getFilmEntities() {
@@ -87,4 +88,11 @@ public class ActorEntity extends BaseEntity {
         this.filmEntities = filmEntities;
     }
 
+    public Long getVersion() {
+        return version;
+    }
+
+    public void setVersion(Long version) {
+        this.version = version;
+    }
 }

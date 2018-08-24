@@ -18,7 +18,7 @@ public class ActorMapper {
         actorEntity.setLastName(actorTO.getLastName());
         actorEntity.setDateOfBirth(actorTO.getDateOfBirth());
         actorEntity.setFilmEntities(actorTO.getFilmEntities());
-        actorEntity.setStudioEntities(actorTO.getStudioEntities());
+        actorEntity.setStudio(actorTO.getStudio());
 
         return actorEntity;
     }
@@ -33,7 +33,7 @@ public class ActorMapper {
         actorTO.setLastName(actorEntity.getLastName());
         actorTO.setDateOfBirth(actorEntity.getDateOfBirth());
         actorTO.setFilmEntities(actorEntity.getFilmEntities());
-        actorTO.setStudioEntities(actorEntity.getStudioEntities());
+        actorTO.setStudio(actorEntity.getStudio());
 
         return actorTO;
     }

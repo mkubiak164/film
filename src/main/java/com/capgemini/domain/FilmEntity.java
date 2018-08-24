@@ -4,6 +4,7 @@ package com.capgemini.domain;
 import com.sun.istack.internal.NotNull;
 
 import javax.persistence.*;
+import java.time.LocalDate;
 import java.util.Collection;
 import java.util.Date;
 
@@ -29,8 +30,8 @@ public class FilmEntity extends BaseEntity{
     @Column(name="film_Length", length = 10)
     private Integer length;
 
-    @Column(name="premier_Date")
-    private Date premierDate;
+    @Column(name="premier_Date")  //TODO
+    private LocalDate premierDate;
 
     @Column(name="country", length = 30)
     private String country;
@@ -48,13 +49,14 @@ public class FilmEntity extends BaseEntity{
     private Long profit1stWeek;
 
 
-    @ManyToMany(mappedBy = "film", cascade = CascadeType.REMOVE)
+    @ManyToMany(mappedBy = "filmEntities", cascade = CascadeType.REMOVE)
     private Collection<ActorEntity> actorEntities;
 
-    @OneToMany(mappedBy = "film", cascade = CascadeType.REMOVE)
-    private Collection<StudioEntity> studioEntities;
+    @ManyToOne(cascade = CascadeType.REMOVE)
+    private StudioEntity studio;
 
     @Version
+    @Column(name="version")
     private Long version;
 
 
@@ -98,11 +100,11 @@ public class FilmEntity extends BaseEntity{
         this.length = length;
     }
 
-    public Date getPremierDate() {
+    public LocalDate getPremierDate() {
         return premierDate;
     }
 
-    public void setPremierDate(Date premierDate) {
+    public void setPremierDate(LocalDate premierDate) {
         this.premierDate = premierDate;
     }
 
@@ -154,11 +156,19 @@ public class FilmEntity extends BaseEntity{
         this.actorEntities = actorEntities;
     }
 
-    public Collection<StudioEntity> getStudioEntities() {
-        return studioEntities;
+    public StudioEntity getStudio() {
+        return studio;
     }
 
-    public void setStudioEntities(Collection<StudioEntity> studioEntities) {
-        this.studioEntities = studioEntities;
+    public void setStudio(StudioEntity studio) {
+        this.studio = studio;
+    }
+
+    public Long getVersion() {
+        return version;
+    }
+
+    public void setVersion(Long version) {
+        this.version = version;
     }
 }

@@ -3,13 +3,15 @@ package com.capgemini.types;
 import com.capgemini.domain.ActorEntity;
 import com.capgemini.domain.FilmEntity;
 
+import java.util.Collection;
+
 public class StudioTOBuilder {
 
     private Integer id;
     private String city;
     private String country;
     private String studioName;
-    private FilmEntity filmEntity;
+    private Collection<FilmEntity> filmEntity;
     private ActorEntity actorEntity;
 
 
@@ -33,7 +35,7 @@ public class StudioTOBuilder {
         return this;
     }
 
-    public StudioTOBuilder withFilmEntity(FilmEntity filmEntity) {
+    public StudioTOBuilder withFilmEntity(Collection<FilmEntity> filmEntity) {
         this.filmEntity = filmEntity;
         return this;
     }

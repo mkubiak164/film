@@ -2,13 +2,17 @@ package com.capgemini.service;
 
 import com.capgemini.types.FilmTO;
 
+import java.util.List;
+
 public interface FilmService {
 
-    FilmTO addActor(FilmTO actor);
+    FilmTO addFilm(FilmTO actor);
 
-    FilmTO showActor(Integer id);
+    FilmTO showFilm(Integer id);
 
-    FilmTO editActor(FilmTO actor);
+    FilmTO editFilm(FilmTO actor);
 
-    void removeActor(Integer id);
+    void removeFilm(Integer id);
+
+    List<FilmTO> findAllFilms();
 }

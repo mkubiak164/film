@@ -1,7 +1,118 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e613f22-b1f7-4eed-87f9-f7945bc747d4" name="Default Changelist" comment="" />
+    <list default="true" id="8e613f22-b1f7-4eed-87f9-f7945bc747d4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/capgemini/service/FilmServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/capgemini/dao/ActorDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/capgemini/dao/ActorDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/capgemini/dao/CarDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/capgemini/dao/EmployeeDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/capgemini/dao/FilmDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/capgemini/dao/FilmDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/capgemini/dao/KeeperDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/capgemini/dao/OfficeDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/capgemini/dao/StudioDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/capgemini/dao/StudioDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/capgemini/dao/impl/CarDAOImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/capgemini/dao/impl/EmployeeDAOImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/capgemini/dao/impl/FilmDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/capgemini/dao/impl/FilmDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/capgemini/dao/impl/KeeperDAOImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/capgemini/dao/impl/OfficeDAOImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/capgemini/domain/ActorEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/capgemini/domain/ActorEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/capgemini/domain/CarEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/capgemini/domain/CustomerEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/capgemini/domain/EmpPositionEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/capgemini/domain/EmployeeEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/capgemini/domain/FilmEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/capgemini/domain/FilmEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/capgemini/domain/KeeperEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/capgemini/domain/LoanEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/capgemini/domain/OfficeEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/capgemini/domain/StudioEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/capgemini/domain/StudioEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/capgemini/mappers/ActorMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/capgemini/mappers/ActorMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/capgemini/mappers/CarMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/capgemini/mappers/EmployeeMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/capgemini/mappers/FilmMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/capgemini/mappers/FilmMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/capgemini/mappers/OfficeMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/capgemini/mappers/StudioMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/capgemini/mappers/StudioMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/capgemini/service/CarService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/capgemini/service/EmployeeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/capgemini/service/FilmService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/capgemini/service/FilmService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/capgemini/service/OfficeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/capgemini/service/impl/ActorServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/capgemini/service/impl/ActorServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/capgemini/service/impl/CarServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/capgemini/service/impl/EmployeeServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/capgemini/service/impl/FilmServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/capgemini/service/impl/FilmServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/capgemini/service/impl/OfficeServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/capgemini/service/impl/StudioServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/capgemini/service/impl/StudioServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/capgemini/types/ActorTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/capgemini/types/ActorTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/capgemini/types/CarTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/capgemini/types/CarToBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/capgemini/types/EmployeeSearchCriteria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/capgemini/types/EmployeeTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/capgemini/types/EmployeeTOBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/capgemini/types/FilmSearchCriteria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/capgemini/types/FilmSearchCriteria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/capgemini/types/FilmTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/capgemini/types/FilmTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/capgemini/types/FilmTOBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/capgemini/types/FilmTOBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/capgemini/types/OfficeTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/capgemini/types/OfficeTOBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/capgemini/types/StudioTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/capgemini/types/StudioTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/capgemini/types/StudioTOBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/capgemini/types/StudioTOBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/capgemini/service/ActorServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/capgemini/service/ActorServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/capgemini/service/CarServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/capgemini/service/OfficeServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/capgemini/dao/ActorDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/capgemini/dao/ActorDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/capgemini/dao/CarDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/capgemini/dao/EmployeeDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/capgemini/dao/FilmDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/capgemini/dao/FilmDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/capgemini/dao/KeeperDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/capgemini/dao/OfficeDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/capgemini/dao/StudioDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/capgemini/dao/StudioDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/capgemini/dao/impl/CarDAOImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/capgemini/dao/impl/EmployeeDAOImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/capgemini/dao/impl/FilmDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/capgemini/dao/impl/FilmDAOImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/capgemini/dao/impl/KeeperDAOImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/capgemini/dao/impl/OfficeDAOImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/capgemini/domain/ActorEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/capgemini/domain/ActorEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/capgemini/domain/CarEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/capgemini/domain/CustomerEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/capgemini/domain/EmpPositionEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/capgemini/domain/EmployeeEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/capgemini/domain/FilmEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/capgemini/domain/FilmEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/capgemini/domain/KeeperEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/capgemini/domain/LoanEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/capgemini/domain/OfficeEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/capgemini/domain/StudioEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/capgemini/domain/StudioEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/capgemini/mappers/ActorMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/capgemini/mappers/ActorMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/capgemini/mappers/CarMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/capgemini/mappers/EmployeeMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/capgemini/mappers/FilmMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/capgemini/mappers/FilmMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/capgemini/mappers/OfficeMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/capgemini/mappers/StudioMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/capgemini/mappers/StudioMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/capgemini/service/CarService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/capgemini/service/EmployeeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/capgemini/service/OfficeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/capgemini/service/impl/ActorServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/capgemini/service/impl/ActorServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/capgemini/service/impl/CarServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/capgemini/service/impl/EmployeeServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/capgemini/service/impl/FilmServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/capgemini/service/impl/FilmServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/capgemini/service/impl/OfficeServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/capgemini/service/impl/StudioServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/capgemini/service/impl/StudioServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/capgemini/types/ActorTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/capgemini/types/ActorTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/capgemini/types/CarTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/capgemini/types/CarToBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/capgemini/types/EmployeeSearchCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/capgemini/types/EmployeeTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/capgemini/types/EmployeeTOBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/capgemini/types/FilmSearchCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/capgemini/types/FilmSearchCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/capgemini/types/FilmTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/capgemini/types/FilmTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/capgemini/types/FilmTOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/capgemini/types/FilmTOBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/capgemini/types/OfficeTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/capgemini/types/OfficeTOBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/capgemini/types/StudioTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/capgemini/types/StudioTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/capgemini/types/StudioTOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/capgemini/types/StudioTOBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/capgemini/service/ActorServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/capgemini/service/ActorServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/capgemini/service/CarServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/capgemini/service/OfficeServiceTest.class" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -9,67 +120,69 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/film$com_capgemini_in_starter_kit_jpa_starter.ic" NAME="com.capgemini in starter-kit-jpa-starter Coverage Results" MODIFIED="1535115531174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.capgemini.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/film$ActorServiceTest.ic" NAME="ActorServiceTest Coverage Results" MODIFIED="1535111952308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.capgemini.service.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="275" />
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-934206280">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.45" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="122" />
+          <entry key="class" value="4" />
+          <entry key="java" value="194" />
+          <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="122" />
+          <entry key="CLASS" value="4" />
+          <entry key="JAVA" value="194" />
+          <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="8852" />
+          <entry key="java" value="12489" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="8852" />
+          <entry key="JAVA" value="12489" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4798387">
+    <splitter split-orientation="horizontal" split-proportion="0.47891158">
       <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+        <leaf>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/service/impl/FilmServiceImpl.java">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/domain/ActorEntity.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="231">
-                  <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+                <state relative-caret-position="252">
+                  <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/service/impl/StudioServiceImpl.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="231">
-                  <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#791#792#0" expanded="true" />
-                    <element signature="e#866#867#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -78,8 +191,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/java/com/capgemini/service/ActorServiceTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1743">
-                  <caret line="94" selection-start-line="94" selection-end-line="94" />
+                <state relative-caret-position="1283">
+                  <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -88,35 +201,35 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/types/FilmSearchCriteria.java">
+            <entry file="file://$PROJECT_DIR$/src/test/java/com/capgemini/service/FilmServiceTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="378">
-                  <caret line="51" column="39" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="39" />
+                <state relative-caret-position="399">
+                  <caret line="40" column="36" lean-forward="true" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
                   <folding>
-                    <element signature="e#591#592#0" expanded="true" />
-                    <element signature="e#618#619#0" expanded="true" />
-                    <element signature="e#658#659#0" expanded="true" />
-                    <element signature="e#690#691#0" expanded="true" />
-                    <element signature="e#719#720#0" expanded="true" />
-                    <element signature="e#746#747#0" expanded="true" />
-                    <element signature="e#784#785#0" expanded="true" />
-                    <element signature="e#816#817#0" expanded="true" />
-                    <element signature="e#850#851#0" expanded="true" />
-                    <element signature="e#879#880#0" expanded="true" />
-                    <element signature="e#924#925#0" expanded="true" />
-                    <element signature="e#960#961#0" expanded="true" />
-                    <element signature="e#996#997#0" expanded="true" />
-                    <element signature="e#1030#1031#0" expanded="true" />
-                    <element signature="e#1082#1083#0" expanded="true" />
-                    <element signature="e#1128#1129#0" expanded="true" />
-                    <element signature="e#1160#1161#0" expanded="true" />
-                    <element signature="e#1187#1188#0" expanded="true" />
-                    <element signature="e#1228#1229#0" expanded="true" />
-                    <element signature="e#1260#1261#0" expanded="true" />
-                    <element signature="e#1296#1297#0" expanded="true" />
-                    <element signature="e#1327#1328#0" expanded="true" />
-                    <element signature="e#1376#1377#0" expanded="true" />
-                    <element signature="e#1416#1417#0" expanded="true" />
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/service/FilmService.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="126">
+                  <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/service/impl/FilmServiceImpl.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="567">
+                  <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#1242#1243#0" expanded="true" />
+                    <element signature="e#1269#1270#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -125,8 +238,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/service/ActorService.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret column="30" selection-start-column="30" selection-end-column="30" />
+                <state relative-caret-position="141">
+                  <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -135,10 +248,10 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/types/ActorTOBuilder.java">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/types/FilmTOBuilder.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="714">
-                  <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
+                <state relative-caret-position="-373">
+                  <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -147,22 +260,13 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/domain/FilmEntity.java">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/dao/impl/FilmDAOImpl.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="525">
-                  <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+                <state relative-caret-position="420">
+                  <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/java/com/capgemini/service/CarServiceTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="168">
-                  <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
                 </state>
               </provider>
             </entry>
@@ -170,12 +274,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+        <leaf>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/dao/impl/CarDAOImpl.java">
+            <entry file="file://$PROJECT_DIR$/src/test/java/com/capgemini/service/ActorServiceTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="420">
-                  <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+                <state relative-caret-position="105">
+                  <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -184,10 +288,13 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/types/EmployeeSearchCriteria.java">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/service/impl/ActorServiceImpl.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="168">
-                  <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+                <state relative-caret-position="63">
+                  <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -205,6 +312,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -217,33 +327,37 @@
         <option value="$PROJECT_DIR$/src/main/java/com/capgemini/mappers/CarMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/capgemini/dao/CastDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/capgemini/dao/impl/AbstractDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/capgemini/dao/ActorDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/capgemini/dao/impl/EntityRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/capgemini/domain/CastEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/capgemini/types/FilmTOBuilder.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/capgemini/types/OfficeTOBuilder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/capgemini/types/FilmTO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/capgemini/types/ActorTOBuilder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/capgemini/types/ActorTO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/capgemini/types/StudioTOBuilder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/capgemini/mappers/ActorMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/capgemini/mappers/FilmMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/capgemini/mappers/StudioMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/capgemini/types/StudioTO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/capgemini/domain/StudioEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/capgemini/domain/ActorEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/capgemini/domain/FilmEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/capgemini/service/FilmService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/capgemini/dao/impl/StudioDAOImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/capgemini/dao/impl/FilmDAOImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/capgemini/service/impl/FilmServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/capgemini/service/StudioService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/capgemini/service/impl/StudioServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/capgemini/dao/impl/ActorDAOImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/capgemini/service/ActorService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/capgemini/service/impl/ActorServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/capgemini/service/ActorServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/capgemini/domain/StudioEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/capgemini/dao/impl/ActorDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/capgemini/dao/ActorDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/capgemini/types/ActorTO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/capgemini/mappers/ActorMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/capgemini/domain/FilmEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/capgemini/mappers/FilmMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/capgemini/types/StudioTO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/capgemini/mappers/StudioMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/capgemini/types/FilmSearchCriteria.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/capgemini/types/FilmTO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/capgemini/dao/impl/EmployeeDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/capgemini/dao/FilmDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/capgemini/dao/StudioDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/capgemini/service/impl/StudioServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/capgemini/types/FilmTOBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/capgemini/types/StudioTOBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/capgemini/dao/impl/FilmDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/capgemini/domain/ActorEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/capgemini/service/impl/ActorServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/capgemini/service/FilmService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/capgemini/service/ActorServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/capgemini/service/FilmServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/capgemini/service/impl/FilmServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -276,19 +390,20 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="542" />
-    <option name="y" value="14" />
-    <option name="width" value="1291" />
-    <option name="height" value="992" />
+    <option name="x" value="648" />
+    <option name="y" value="5" />
+    <option name="width" value="1270" />
+    <option name="height" value="1025" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -338,6 +453,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="capgemini" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="film" type="b2602c69:ProjectViewProjectNode" />
+              <item name="film" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="capgemini" type="462c0819:PsiDirectoryNode" />
               <item name="domain" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -374,7 +499,24 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="capgemini" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="film" type="b2602c69:ProjectViewProjectNode" />
+              <item name="film" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="capgemini" type="462c0819:PsiDirectoryNode" />
               <item name="types" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="film" type="b2602c69:ProjectViewProjectNode" />
+              <item name="film" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="film" type="b2602c69:ProjectViewProjectNode" />
@@ -404,7 +546,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535049493298" />
+    <property name="SearchEverywhereHistoryKey" value="transa&#9;PSI&#9;JAVA://org.omg.CORBA.TRANSACTION_ROLLEDBACK&#10;trans&#9;PSI&#9;JAVA://javax.transaction.Transaction&#10;entity man&#9;PSI&#9;JAVA://javax.persistence.EntityManager&#10;filmD&#9;FILE&#9;file://C:/Projects/jpa/film/src/main/java/com/capgemini/dao/impl/FilmDAOImpl.java&#10;bas&#9;FILE&#9;file://C:/Projects/jpa/film/src/main/java/com/capgemini/domain/BaseEntity.java" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535120462438" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -422,21 +565,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StarterKitJpaStarterApplication">
-    <configuration name="StarterKitJpaStarterApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.capgemini.StarterKitJpaStarterApplication" />
-      <module name="starter-kit-jpa-starter" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.capgemini.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ActorServiceTest.shouldAddActor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.FilmServiceTest.shouldAddFilm">
+    <configuration name="ActorServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="starter-kit-jpa-starter" />
       <extension name="coverage">
         <pattern>
@@ -446,20 +576,86 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.capgemini.service" />
       <option name="MAIN_CLASS_NAME" value="com.capgemini.service.ActorServiceTest" />
-      <option name="METHOD_NAME" value="shouldAddActor" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ActorServiceTest.shouldNotRemoveActorAndThrowNullPointerException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="starter-kit-jpa-starter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.capgemini.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.capgemini.service" />
+      <option name="MAIN_CLASS_NAME" value="com.capgemini.service.ActorServiceTest" />
+      <option name="METHOD_NAME" value="shouldNotRemoveActorAndThrowNullPointerException" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ActorServiceTest.shouldRemoveActor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="starter-kit-jpa-starter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.capgemini.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.capgemini.service" />
+      <option name="MAIN_CLASS_NAME" value="com.capgemini.service.ActorServiceTest" />
+      <option name="METHOD_NAME" value="shouldRemoveActor" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FilmServiceTest.shouldAddFilm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="starter-kit-jpa-starter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.capgemini.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.capgemini.service" />
+      <option name="MAIN_CLASS_NAME" value="com.capgemini.service.FilmServiceTest" />
+      <option name="METHOD_NAME" value="shouldAddFilm" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.capgemini in starter-kit-jpa-starter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="starter-kit-jpa-starter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.capgemini.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.capgemini" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JUnit.ActorServiceTest.shouldAddActor" />
-      <item itemvalue="Application.StarterKitJpaStarterApplication" />
+      <item itemvalue="JUnit.ActorServiceTest" />
+      <item itemvalue="JUnit.ActorServiceTest.shouldRemoveActor" />
+      <item itemvalue="JUnit.ActorServiceTest.shouldNotRemoveActorAndThrowNullPointerException" />
+      <item itemvalue="JUnit.FilmServiceTest.shouldAddFilm" />
+      <item itemvalue="JUnit.com.capgemini in starter-kit-jpa-starter" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StarterKitJpaStarterApplication" />
-        <item itemvalue="JUnit.ActorServiceTest.shouldAddActor" />
+        <item itemvalue="JUnit.FilmServiceTest.shouldAddFilm" />
+        <item itemvalue="JUnit.com.capgemini in starter-kit-jpa-starter" />
+        <item itemvalue="JUnit.ActorServiceTest" />
+        <item itemvalue="JUnit.ActorServiceTest.shouldNotRemoveActorAndThrowNullPointerException" />
+        <item itemvalue="JUnit.ActorServiceTest.shouldRemoveActor" />
       </list>
     </recent_temporary>
   </component>
@@ -477,15 +673,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ActorServiceTest_shouldAddActor - 2018.08.23 at 14h 45m 26s.xml">
-      <configuration name="ActorServiceTest.shouldAddActor" configurationId="JUnit" />
+    <history-entry file="ActorServiceTest_shouldRemoveActor - 2018.08.24 at 14h 30m 01s.xml">
+      <configuration name="ActorServiceTest.shouldRemoveActor" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ActorServiceTest_shouldRemoveActor - 2018.08.24 at 14h 31m 04s.xml">
+      <configuration name="ActorServiceTest.shouldRemoveActor" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ActorServiceTest_shouldRemoveActor - 2018.08.24 at 14h 33m 34s.xml">
+      <configuration name="ActorServiceTest.shouldRemoveActor" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ActorServiceTest_shouldNotRemoveActorAndThrowNullPointerException - 2018.08.24 at 14h 35m 23s.xml">
+      <configuration name="ActorServiceTest.shouldNotRemoveActorAndThrowNullPointerException" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ActorServiceTest - 2018.08.24 at 14h 35m 43s.xml">
+      <configuration name="ActorServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FilmServiceTest_shouldAddFilm - 2018.08.24 at 14h 55m 32s.xml">
+      <configuration name="FilmServiceTest.shouldAddFilm" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FilmServiceTest_shouldAddFilm - 2018.08.24 at 14h 56m 19s.xml">
+      <configuration name="FilmServiceTest.shouldAddFilm" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="com_capgemini_in_starter-kit-jpa-starter - 2018.08.24 at 14h 59m 00s.xml">
+      <configuration name="com.capgemini in starter-kit-jpa-starter" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FilmServiceTest_shouldAddFilm - 2018.08.24 at 15h 02m 02s.xml">
+      <configuration name="FilmServiceTest.shouldAddFilm" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FilmServiceTest_shouldAddFilm - 2018.08.24 at 16h 12m 18s.xml">
+      <configuration name="FilmServiceTest.shouldAddFilm" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20354457" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17024705" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -494,15 +717,16 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3299435" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3717514" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3299435" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.20676692" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -513,7 +737,7 @@
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.32975295" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20622987" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20354457" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -522,14 +746,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3299435" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3299435" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -544,217 +769,12 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/domain/CustomerEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/types/CarTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-21">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/enums/TypeEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/domain/EmployeeEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/mappers/CastMapper.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/types/CastTOBuilder.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/mappers/CarMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/dao/StudioDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/dao/impl/CastDAOImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/dao/CastDAO.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/types/CastTO.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/dao/impl/EntityRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/domain/CastEntity.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/types/FilmTOBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/types/ActorTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="55" column="5" lean-forward="true" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#856#857#0" expanded="true" />
-            <element signature="e#881#882#0" expanded="true" />
-            <element signature="e#918#919#0" expanded="true" />
-            <element signature="e#946#947#0" expanded="true" />
-            <element signature="e#982#983#0" expanded="true" />
-            <element signature="e#1014#1015#0" expanded="true" />
-            <element signature="e#1064#1065#0" expanded="true" />
-            <element signature="e#1106#1107#0" expanded="true" />
-            <element signature="e#1141#1142#0" expanded="true" />
-            <element signature="e#1172#1173#0" expanded="true" />
-            <element signature="e#1220#1221#0" expanded="true" />
-            <element signature="e#1260#1261#0" expanded="true" />
-            <element signature="e#1296#1297#0" expanded="true" />
-            <element signature="e#1330#1331#0" expanded="true" />
-            <element signature="e#1382#1383#0" expanded="true" />
-            <element signature="e#1428#1429#0" expanded="true" />
-            <element signature="e#1487#1488#0" expanded="true" />
-            <element signature="e#1524#1525#0" expanded="true" />
-            <element signature="e#1602#1603#0" expanded="true" />
-            <element signature="e#1654#1655#0" expanded="true" />
-            <element signature="e#1709#1710#0" expanded="true" />
-            <element signature="e#1744#1745#0" expanded="true" />
-            <element signature="e#1816#1817#0" expanded="true" />
-            <element signature="e#1864#1865#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/types/FilmTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1336#1337#0" expanded="true" />
-            <element signature="e#1361#1362#0" expanded="true" />
-            <element signature="e#1398#1399#0" expanded="true" />
-            <element signature="e#1426#1427#0" expanded="true" />
-            <element signature="e#1458#1459#0" expanded="true" />
-            <element signature="e#1486#1487#0" expanded="true" />
-            <element signature="e#1528#1529#0" expanded="true" />
-            <element signature="e#1562#1563#0" expanded="true" />
-            <element signature="e#1593#1594#0" expanded="true" />
-            <element signature="e#1620#1621#0" expanded="true" />
-            <element signature="e#1660#1661#0" expanded="true" />
-            <element signature="e#1692#1693#0" expanded="true" />
-            <element signature="e#1721#1722#0" expanded="true" />
-            <element signature="e#1748#1749#0" expanded="true" />
-            <element signature="e#1786#1787#0" expanded="true" />
-            <element signature="e#1818#1819#0" expanded="true" />
-            <element signature="e#1852#1853#0" expanded="true" />
-            <element signature="e#1881#1882#0" expanded="true" />
-            <element signature="e#1926#1927#0" expanded="true" />
-            <element signature="e#1962#1963#0" expanded="true" />
-            <element signature="e#1993#1994#0" expanded="true" />
-            <element signature="e#2022#2023#0" expanded="true" />
-            <element signature="e#2064#2065#0" expanded="true" />
-            <element signature="e#2100#2101#0" expanded="true" />
-            <element signature="e#2134#2135#0" expanded="true" />
-            <element signature="e#2164#2165#0" expanded="true" />
-            <element signature="e#2210#2211#0" expanded="true" />
-            <element signature="e#2248#2249#0" expanded="true" />
-            <element signature="e#2280#2281#0" expanded="true" />
-            <element signature="e#2307#2308#0" expanded="true" />
-            <element signature="e#2348#2349#0" expanded="true" />
-            <element signature="e#2380#2381#0" expanded="true" />
-            <element signature="e#2411#2412#0" expanded="true" />
-            <element signature="e#2440#2441#0" expanded="true" />
-            <element signature="e#2482#2483#0" expanded="true" />
-            <element signature="e#2518#2519#0" expanded="true" />
-            <element signature="e#2554#2555#0" expanded="true" />
-            <element signature="e#2588#2589#0" expanded="true" />
-            <element signature="e#2640#2641#0" expanded="true" />
-            <element signature="e#2686#2687#0" expanded="true" />
-            <element signature="e#2724#2725#0" expanded="true" />
-            <element signature="e#2760#2761#0" expanded="true" />
-            <element signature="e#2816#2817#0" expanded="true" />
-            <element signature="e#2866#2867#0" expanded="true" />
-            <element signature="e#2923#2924#0" expanded="true" />
-            <element signature="e#2959#2960#0" expanded="true" />
-            <element signature="e#3034#3035#0" expanded="true" />
-            <element signature="e#3084#3085#0" expanded="true" />
-            <element signature="e#3143#3144#0" expanded="true" />
-            <element signature="e#3180#3181#0" expanded="true" />
-            <element signature="e#3258#3259#0" expanded="true" />
-            <element signature="e#3310#3311#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/domain/LoanEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/types/StudioTOBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/mappers/ActorMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="903">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/mappers/FilmMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/mappers/StudioMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -769,170 +789,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-580">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/domain/CarEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/domain/ActorEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-          <folding>
-            <element signature="e#929#930#0" expanded="true" />
-            <element signature="e#954#955#0" expanded="true" />
-            <element signature="e#991#992#0" expanded="true" />
-            <element signature="e#1019#1020#0" expanded="true" />
-            <element signature="e#1055#1056#0" expanded="true" />
-            <element signature="e#1087#1088#0" expanded="true" />
-            <element signature="e#1137#1138#0" expanded="true" />
-            <element signature="e#1179#1180#0" expanded="true" />
-            <element signature="e#1214#1215#0" expanded="true" />
-            <element signature="e#1245#1246#0" expanded="true" />
-            <element signature="e#1293#1294#0" expanded="true" />
-            <element signature="e#1333#1334#0" expanded="true" />
-            <element signature="e#1369#1370#0" expanded="true" />
-            <element signature="e#1403#1404#0" expanded="true" />
-            <element signature="e#1455#1456#0" expanded="true" />
-            <element signature="e#1501#1502#0" expanded="true" />
-            <element signature="e#1560#1561#0" expanded="true" />
-            <element signature="e#1597#1598#0" expanded="true" />
-            <element signature="e#1675#1676#0" expanded="true" />
-            <element signature="e#1727#1728#0" expanded="true" />
-            <element signature="e#1782#1783#0" expanded="true" />
-            <element signature="e#1817#1818#0" expanded="true" />
-            <element signature="e#1889#1890#0" expanded="true" />
-            <element signature="e#1937#1938#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/domain/StudioEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#688#689#0" expanded="true" />
-            <element signature="e#713#714#0" expanded="true" />
-            <element signature="e#750#751#0" expanded="true" />
-            <element signature="e#778#779#0" expanded="true" />
-            <element signature="e#809#810#0" expanded="true" />
-            <element signature="e#836#837#0" expanded="true" />
-            <element signature="e#876#877#0" expanded="true" />
-            <element signature="e#908#909#0" expanded="true" />
-            <element signature="e#942#943#0" expanded="true" />
-            <element signature="e#972#973#0" expanded="true" />
-            <element signature="e#1018#1019#0" expanded="true" />
-            <element signature="e#1056#1057#0" expanded="true" />
-            <element signature="e#1093#1094#0" expanded="true" />
-            <element signature="e#1126#1127#0" expanded="true" />
-            <element signature="e#1178#1179#0" expanded="true" />
-            <element signature="e#1222#1223#0" expanded="true" />
-            <element signature="e#1263#1264#0" expanded="true" />
-            <element signature="e#1296#1297#0" expanded="true" />
-            <element signature="e#1352#1353#0" expanded="true" />
-            <element signature="e#1396#1397#0" expanded="true" />
-            <element signature="e#1439#1440#0" expanded="true" />
-            <element signature="e#1473#1474#0" expanded="true" />
-            <element signature="e#1532#1533#0" expanded="true" />
-            <element signature="e#1578#1579#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/domain/BaseEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/dao/CarDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/service/FilmService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/dao/impl/AbstractDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-          <folding>
-            <element signature="e#926#927#0" expanded="true" />
-            <element signature="e#989#990#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/types/StudioTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#711#712#0" expanded="true" />
-            <element signature="e#736#737#0" expanded="true" />
-            <element signature="e#773#774#0" expanded="true" />
-            <element signature="e#801#802#0" expanded="true" />
-            <element signature="e#832#833#0" expanded="true" />
-            <element signature="e#859#860#0" expanded="true" />
-            <element signature="e#899#900#0" expanded="true" />
-            <element signature="e#931#932#0" expanded="true" />
-            <element signature="e#965#966#0" expanded="true" />
-            <element signature="e#995#996#0" expanded="true" />
-            <element signature="e#1041#1042#0" expanded="true" />
-            <element signature="e#1079#1080#0" expanded="true" />
-            <element signature="e#1116#1117#0" expanded="true" />
-            <element signature="e#1149#1150#0" expanded="true" />
-            <element signature="e#1201#1202#0" expanded="true" />
-            <element signature="e#1245#1246#0" expanded="true" />
-            <element signature="e#1286#1287#0" expanded="true" />
-            <element signature="e#1319#1320#0" expanded="true" />
-            <element signature="e#1375#1376#0" expanded="true" />
-            <element signature="e#1419#1420#0" expanded="true" />
-            <element signature="e#1462#1463#0" expanded="true" />
-            <element signature="e#1496#1497#0" expanded="true" />
-            <element signature="e#1555#1556#0" expanded="true" />
-            <element signature="e#1601#1602#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/dao/FilmDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/dao/ActorDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/dao/Dao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -953,16 +809,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/dao/impl/FilmDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/service/CarService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -970,39 +816,202 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/service/impl/ActorServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/StarterKitJpaStarterApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="593">
-          <caret line="56" column="35" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
+        <state relative-caret-position="105">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/types/ActorTOBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1611#1612#0" expanded="true" />
-            <element signature="e#1681#1682#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/dao/impl/CarDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/dao/Dao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/service/impl/CarServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+        <state relative-caret-position="168">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/dao/impl/ActorDAOImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/dao/CarDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="84">
+          <caret line="6" column="55" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/dao/impl/EntityRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/service/impl/FilmServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/mappers/ActorMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/domain/BaseEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../film/${env.BASE_DIR}/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar!/javax/persistence/EntityManagerFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/mappers/FilmMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-433">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/domain/StudioEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1578#1579#0" expanded="true" />
+            <element signature="e#1608#1609#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../film/${env.BASE_DIR}/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar!/javax/persistence/EntityManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="104" column="12" lean-forward="true" selection-start-line="104" selection-start-column="12" selection-end-line="104" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/mappers/StudioMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/types/FilmSearchCriteria.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
-          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+          <caret line="32" column="38" lean-forward="true" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#854#855#0" expanded="true" />
+            <element signature="e#881#882#0" expanded="true" />
+            <element signature="e#953#954#0" expanded="true" />
+            <element signature="e#982#983#0" expanded="true" />
+            <element signature="e#1009#1010#0" expanded="true" />
+            <element signature="e#1047#1048#0" expanded="true" />
+            <element signature="e#1079#1080#0" expanded="true" />
+            <element signature="e#1117#1118#0" expanded="true" />
+            <element signature="e#1150#1151#0" expanded="true" />
+            <element signature="e#1203#1204#0" expanded="true" />
+            <element signature="e#1247#1248#0" expanded="true" />
+            <element signature="e#1283#1284#0" expanded="true" />
+            <element signature="e#1314#1315#0" expanded="true" />
+            <element signature="e#1363#1364#0" expanded="true" />
+            <element signature="e#1403#1404#0" expanded="true" />
+            <element signature="e#1448#1449#0" expanded="true" />
+            <element signature="e#1486#1487#0" expanded="true" />
+            <element signature="e#1551#1552#0" expanded="true" />
+            <element signature="e#1605#1606#0" expanded="true" />
+            <element signature="e#1648#1649#0" expanded="true" />
+            <element signature="e#1684#1685#0" expanded="true" />
+            <element signature="e#1745#1746#0" expanded="true" />
+            <element signature="e#1795#1796#0" expanded="true" />
+            <element signature="e#1827#1828#0" expanded="true" />
+            <element signature="e#1854#1855#0" expanded="true" />
+            <element signature="e#1895#1896#0" expanded="true" />
+            <element signature="e#1927#1928#0" expanded="true" />
+            <element signature="e#1963#1964#0" expanded="true" />
+            <element signature="e#1994#1995#0" expanded="true" />
+            <element signature="e#2043#2044#0" expanded="true" />
+            <element signature="e#2083#2084#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/types/FilmTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="140" selection-start-line="140" selection-end-line="140" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/dao/FilmDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/dao/StudioDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/dao/impl/ActorDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1011,50 +1020,108 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/service/impl/StudioServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        <state relative-caret-position="126">
+          <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#791#792#0" expanded="true" />
             <element signature="e#866#867#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/capgemini/service/ActorServiceTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/dao/impl/EmployeeDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1743">
-          <caret line="94" selection-start-line="94" selection-end-line="94" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/service/ActorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="30" selection-start-column="30" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/types/ActorTOBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="84">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/domain/FilmEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+        <state relative-caret-position="932">
+          <caret line="48" column="28" lean-forward="true" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/dao/ActorDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../film/${env.BASE_DIR}/org/hibernate/hibernate-core/5.0.9.Final/hibernate-core-5.0.9.Final.jar!/org/hibernate/Transaction.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../crash_course/jdk/jdk8/src.zip!/org/omg/CORBA/TRANSACTION_ROLLEDBACK.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../film/${env.BASE_DIR}/javax/transaction/javax.transaction-api/1.2/javax.transaction-api-1.2.jar!/javax/transaction/Transaction.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/types/StudioTOBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1008">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/types/EmployeeSearchCriteria.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/types/StudioTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="635">
+          <caret line="61" column="41" lean-forward="true" selection-start-line="61" selection-start-column="41" selection-end-line="61" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1326#1327#0" expanded="true" />
+            <element signature="e#1354#1355#0" expanded="true" />
+            <element signature="e#1412#1413#0" expanded="true" />
+            <element signature="e#1446#1447#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/dao/impl/FilmDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/domain/CarEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="42" column="12" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1064,57 +1131,107 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/com/capgemini/service/CarServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/types/FilmSearchCriteria.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/domain/ActorEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="51" column="39" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="39" />
-          <folding>
-            <element signature="e#591#592#0" expanded="true" />
-            <element signature="e#618#619#0" expanded="true" />
-            <element signature="e#658#659#0" expanded="true" />
-            <element signature="e#690#691#0" expanded="true" />
-            <element signature="e#719#720#0" expanded="true" />
-            <element signature="e#746#747#0" expanded="true" />
-            <element signature="e#784#785#0" expanded="true" />
-            <element signature="e#816#817#0" expanded="true" />
-            <element signature="e#850#851#0" expanded="true" />
-            <element signature="e#879#880#0" expanded="true" />
-            <element signature="e#924#925#0" expanded="true" />
-            <element signature="e#960#961#0" expanded="true" />
-            <element signature="e#996#997#0" expanded="true" />
-            <element signature="e#1030#1031#0" expanded="true" />
-            <element signature="e#1082#1083#0" expanded="true" />
-            <element signature="e#1128#1129#0" expanded="true" />
-            <element signature="e#1160#1161#0" expanded="true" />
-            <element signature="e#1187#1188#0" expanded="true" />
-            <element signature="e#1228#1229#0" expanded="true" />
-            <element signature="e#1260#1261#0" expanded="true" />
-            <element signature="e#1296#1297#0" expanded="true" />
-            <element signature="e#1327#1328#0" expanded="true" />
-            <element signature="e#1376#1377#0" expanded="true" />
-            <element signature="e#1416#1417#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/dao/impl/CarDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        <state relative-caret-position="252">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/types/EmployeeSearchCriteria.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/types/ActorTO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        <state relative-caret-position="281">
+          <caret line="55" column="5" lean-forward="true" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/service/ActorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/types/FilmTOBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-373">
+          <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/capgemini/service/ActorServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/dao/impl/AbstractDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="41" column="39" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
+          <folding>
+            <element signature="e#926#927#0" expanded="true" />
+            <element signature="e#989#990#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/service/impl/FilmServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1242#1243#0" expanded="true" />
+            <element signature="e#1269#1270#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/service/FilmService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/capgemini/service/FilmServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="40" column="36" lean-forward="true" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/capgemini/service/impl/ActorServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

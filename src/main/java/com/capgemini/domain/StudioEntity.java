@@ -4,6 +4,7 @@ package com.capgemini.domain;
 import com.sun.istack.internal.NotNull;
 
 import javax.persistence.*;
+import java.util.Collection;
 import java.util.List;
 
 @Entity
@@ -26,13 +27,14 @@ public class StudioEntity extends BaseEntity {
     private String studioName;
 
 
-    @ManyToOne
-    private FilmEntity filmEntity;
+    @OneToMany (mappedBy = "studio", cascade = CascadeType.REMOVE)
+    private Collection<FilmEntity> films;
 
     @ManyToOne
     private ActorEntity actorEntity;
 
     @Version
+    @Column(name="version")
     private Long version;
 
 
@@ -68,12 +70,20 @@ public class StudioEntity extends BaseEntity {
         this.studioName = studioName;
     }
 
-    public FilmEntity getFilmEntity() {
-        return filmEntity;
+    public Collection<FilmEntity> getFilms() {
+        return films;
     }
 
-    public void setFilmEntity(FilmEntity filmEntity) {
-        this.filmEntity = filmEntity;
+    public void setFilms(Collection<FilmEntity> films) {
+        this.films = films;
+    }
+
+    public Long getVersion() {
+        return version;
+    }
+
+    public void setVersion(Long version) {
+        this.version = version;
     }
 
     public ActorEntity getActorEntity() {

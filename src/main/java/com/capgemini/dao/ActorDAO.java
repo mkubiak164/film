@@ -1,6 +1,6 @@
 package com.capgemini.dao;
 
-import org.springframework.data.repository.CrudRepository;
+import com.capgemini.domain.ActorEntity;
 
-public interface ActorDAO {
+public interface ActorDAO extends Dao<ActorEntity, Integer>{
 }

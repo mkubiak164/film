@@ -1,5 +1,6 @@
 package com.capgemini.service.impl;
 
+import com.capgemini.dao.StudioDAO;
 import com.capgemini.dao.impl.StudioDAOImpl;
 import com.capgemini.domain.StudioEntity;
 import com.capgemini.mappers.StudioMapper;
@@ -12,7 +13,7 @@ import org.springframework.stereotype.Service;
 public class StudioServiceImpl implements StudioService {
 
     @Autowired
-    private StudioDAOImpl studioRepository;
+    private StudioDAO studioRepository;
 
     @Override
     public StudioTO addStudio(StudioTO studioTO) {

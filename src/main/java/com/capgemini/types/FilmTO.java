@@ -3,6 +3,7 @@ package com.capgemini.types;
 import com.capgemini.domain.ActorEntity;
 import com.capgemini.domain.StudioEntity;
 
+import java.time.LocalDate;
 import java.util.Collection;
 import java.util.Date;
 
@@ -13,20 +14,20 @@ public class FilmTO {
     private String kind;
     private Enum type;
     private Integer length;
-    private Date premierDate;
+    private LocalDate premierDate;
     private String country;
     private Boolean is3d;
     private Long budget;
     private Long profitTotal;
     private Long profit1stWeek;
     private Collection<ActorEntity> actorEntities;
-    private Collection<StudioEntity> studioEntities;
+    private StudioEntity studio;
 
     public FilmTO() {
 
     }
 
-    public FilmTO(Integer id, String title, String kind, Enum type, Integer length, Date premierDate, String country, Boolean is3d, Long budget, Long profitTotal, Long profit1stWeek, Collection<ActorEntity> actorEntities, Collection<StudioEntity> studioEntities) {
+    public FilmTO(Integer id, String title, String kind, Enum type, Integer length, LocalDate premierDate, String country, Boolean is3d, Long budget, Long profitTotal, Long profit1stWeek, Collection<ActorEntity> actorEntities, StudioEntity studio) {
         this.id = id;
         this.title = title;
         this.kind = kind;
@@ -39,10 +40,10 @@ public class FilmTO {
         this.profitTotal = profitTotal;
         this.profit1stWeek = profit1stWeek;
         this.actorEntities = actorEntities;
-        this.studioEntities = studioEntities;
+        this.studio = studio;
     }
 
-    public FilmTO(Integer id, String title, String kind, Enum type, Integer length, Date premierDate, String country, Boolean is3d, Long budget, Long profitTotal, Long profit1stWeek) {
+    public FilmTO(Integer id, String title, String kind, Enum type, Integer length, LocalDate premierDate, String country, Boolean is3d, Long budget, Long profitTotal, Long profit1stWeek) {
         this.id = id;
         this.title = title;
         this.kind = kind;
@@ -98,11 +99,11 @@ public class FilmTO {
         this.length = length;
     }
 
-    public Date getPremierDate() {
+    public LocalDate getPremierDate() {
         return premierDate;
     }
 
-    public void setPremierDate(Date premierDate) {
+    public void setPremierDate(LocalDate premierDate) {
         this.premierDate = premierDate;
     }
 
@@ -154,12 +155,12 @@ public class FilmTO {
         this.actorEntities = actorEntities;
     }
 
-    public Collection<StudioEntity> getStudioEntities() {
-        return studioEntities;
+    public StudioEntity getStudio() {
+        return studio;
     }
 
-    public void setStudioEntities(Collection<StudioEntity> studioEntities) {
-        this.studioEntities = studioEntities;
+    public void setStudio(StudioEntity studio) {
+        this.studio = studio;
     }
 
 

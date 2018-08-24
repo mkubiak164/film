@@ -12,20 +12,20 @@ public class ActorTO {
     private String firstName;
     private String lastName;
     private Date dateOfBirth;
-    private Collection<StudioEntity> studioEntities;
+    private StudioEntity studio;
     private Collection<FilmEntity> filmEntities;
 
     public ActorTO() {
 
     }
 
-    public ActorTO(Integer id, String firstName, String lastName, Date dateOfBirth, Collection<FilmEntity> filmEntities, Collection<StudioEntity> studioEntities) {
+    public ActorTO(Integer id, String firstName, String lastName, Date dateOfBirth, Collection<FilmEntity> filmEntities, StudioEntity studio) {
         this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
         this.dateOfBirth = dateOfBirth;
         this.filmEntities = filmEntities;
-        this.studioEntities = studioEntities;
+        this.studio = studio;
     }
 
     public ActorTO(Integer id, String firstName, String lastName, Date dateOfBirth) {
@@ -67,12 +67,12 @@ public class ActorTO {
         this.dateOfBirth = dateOfBirth;
     }
 
-    public Collection<StudioEntity> getStudioEntities() {
-        return studioEntities;
+    public StudioEntity getStudio() {
+        return studio;
     }
 
-    public void setStudioEntities(Collection<StudioEntity> studioEntities) {
-        this.studioEntities = studioEntities;
+    public void setStudio(StudioEntity studio) {
+        this.studio = studio;
     }
 
     public Collection<FilmEntity> getFilmEntities() {

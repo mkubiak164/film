@@ -18,7 +18,7 @@ public class StudioMapper {
         studioEntity.setCity(studioTO.getCity());
         studioEntity.setCountry(studioTO.getCountry());
         studioEntity.setStudioName(studioTO.getStudioName());
-        studioEntity.setFilmEntity(studioTO.getFilmEntity());
+        studioEntity.setFilms(studioTO.getFilms());
         studioEntity.setActorEntity(studioTO.getActorEntity());
 
         return studioEntity;
@@ -33,7 +33,7 @@ public class StudioMapper {
         studioTO.setCity(studioEntity.getCity());
         studioTO.setCountry(studioEntity.getCountry());
         studioTO.setStudioName(studioEntity.getStudioName());
-        studioTO.setFilmEntity(studioEntity.getFilmEntity());
+        studioTO.setFilms(studioEntity.getFilms());
         studioTO.setActorEntity(studioEntity.getActorEntity());
 
         return studioTO;

@@ -27,7 +27,7 @@ public class FilmMapper {
         filmEntity.setProfitTotal(filmTO.getProfitTotal());
         filmEntity.setProfit1stWeek(filmTO.getProfit1stWeek());
         filmEntity.setActorEntities(filmTO.getActorEntities());
-        filmEntity.setStudioEntities(filmTO.getStudioEntities());
+        filmEntity.setStudio(filmTO.getStudio());
 
         return filmEntity;
     }
@@ -51,7 +51,7 @@ public class FilmMapper {
         filmTO.setProfitTotal(filmEntity.getProfitTotal());
         filmTO.setProfit1stWeek(filmEntity.getProfit1stWeek());
         filmTO.setActorEntities(filmEntity.getActorEntities());
-        filmTO.setStudioEntities(filmTO.getStudioEntities());
+        filmTO.setStudio(filmTO.getStudio());
 
         return filmTO;
     }
