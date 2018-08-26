@@ -77,7 +77,7 @@ public class ActorServiceTest {
 
         //when
         try {
-        ActorTO actorTO2 = actorService.showActor(785);
+            ActorTO actorTO2 = actorService.showActor(785);
         }
         //then
         catch (Throwable expected) {

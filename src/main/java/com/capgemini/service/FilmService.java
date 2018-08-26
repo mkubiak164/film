@@ -15,4 +15,10 @@ public interface FilmService {
     void removeFilm(Integer id);
 
     List<FilmTO> findAllFilms();
+
+    public Double calculateWeekFilmAverage();
+
+    public Double calculateTotalFilmAverage();
+
+    public Double calculateMostExpensiveTotalProfit(Integer howManyFilms);
 }

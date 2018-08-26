@@ -48,7 +48,6 @@ public class FilmEntity extends BaseEntity{
     @Column(name="profit_1st_week", length = 30)
     private Long profit1stWeek;
 
-
     @ManyToMany(mappedBy = "filmEntities", cascade = CascadeType.REMOVE)
     private Collection<ActorEntity> actorEntities;
 

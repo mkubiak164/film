@@ -51,4 +51,20 @@ public class FilmServiceImpl implements FilmService {
     public List<FilmTO> findAllFilms() {
         return FilmMapper.map2TOs(filmRepository.findAll());
     }
+
+    @Override
+    public Double calculateWeekFilmAverage() {
+        return filmRepository.calculateWeekFilmAverage();
+    }
+
+    @Override
+    public Double calculateTotalFilmAverage() {
+        return filmRepository.calculateTotalFilmAverage();
+    }
+
+    @Override
+    public Double calculateMostExpensiveTotalProfit(Integer howManyFilms) {
+        return filmRepository.calculateMostExpensiveTotalProfit(howManyFilms);
+    }
+
 }

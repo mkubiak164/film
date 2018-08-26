@@ -30,7 +30,7 @@ public class ActorEntity extends BaseEntity {
     private StudioEntity studio;
 
     @ManyToMany (cascade = CascadeType.REMOVE)
-    @JoinTable(name="film",
+    @JoinTable(name="films",
                 joinColumns = {@JoinColumn(name = "actor_id")},
                 inverseJoinColumns = { @JoinColumn(name = "film_id")}
                 )

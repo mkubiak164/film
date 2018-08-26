@@ -21,7 +21,7 @@ public class FilmTOBuilder {
     private Long profitTotal;
     private Long profit1stWeek;
     private Collection<ActorEntity> actorEntities;
-    private Collection<StudioEntity> studioEntities;
+    private StudioEntity studioEntity;
 
     public FilmTOBuilder withId(Integer id) {
         this.id = id;
@@ -78,8 +78,18 @@ public class FilmTOBuilder {
         return this;
     }
 
+    public FilmTOBuilder withActorEntities(Collection<ActorEntity> actorEntities) {
+        this.actorEntities = actorEntities;
+        return this;
+    }
+
+    public FilmTOBuilder withStudioEntity(StudioEntity studioEntitiy) {
+        this.studioEntity = studioEntity;
+        return this;
+    }
+
     public FilmTO build() {
-        return new FilmTO(this.id, this.title, this.kind, this.type, this.length, this.premierDate, this.country, this.is3d, this.budget, this.profitTotal, this.profit1stWeek);
+        return new FilmTO(this.id, this.title, this.kind, this.type, this.length, this.premierDate, this.country, this.is3d, this.budget, this.profitTotal, this.profit1stWeek, this.actorEntities, this.studioEntity);
     }
 
 }

@@ -8,4 +8,10 @@ import java.util.List;
 public interface FilmDAO extends Dao<FilmEntity, Integer> {
 
     public List<FilmEntity> findFilmBy(FilmSearchCriteria filmSearchCriteria);
+
+    public Double calculateWeekFilmAverage();
+
+    public Double calculateTotalFilmAverage();
+
+    public Double calculateMostExpensiveTotalProfit(Integer howManyFilms);
 }
