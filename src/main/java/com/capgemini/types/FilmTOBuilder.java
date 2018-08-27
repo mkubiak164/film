@@ -17,7 +17,7 @@ public class FilmTOBuilder {
     private LocalDate premierDate;
     private String country;
     private Boolean is3d;
-    private Long budget;
+    private Double budget;
     private Long profitTotal;
     private Long profit1stWeek;
     private Collection<ActorEntity> actorEntities;
@@ -63,7 +63,7 @@ public class FilmTOBuilder {
         return this;
     }
 
-    public FilmTOBuilder withBudget(Long budget) {
+    public FilmTOBuilder withBudget(Double budget) {
         this.budget = budget;
         return this;
     }

@@ -14,6 +14,8 @@ import javax.persistence.criteria.*;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
 
 @Repository
 public class FilmDAOImpl extends AbstractDao<FilmEntity, Integer> implements FilmDAO {
@@ -47,11 +49,11 @@ public class FilmDAOImpl extends AbstractDao<FilmEntity, Integer> implements Fil
             predicates.add(cb.lessThan(filmEntity.get("length"), filmSearchCriteria.getLengthTo()));
         }
 
-        if (filmSearchCriteria.getPremierDateFrom() != null) {
+        if (filmSearchCriteria.getPremierDateFrom() != null && filmSearchCriteria.getPremierDateTo() != null) {
+            predicates.add(cb.between(filmEntity.get("premierDate"), filmSearchCriteria.getPremierDateFrom(), filmSearchCriteria.getPremierDateTo()));
+        } else if (filmSearchCriteria.getPremierDateFrom() != null) {
             predicates.add(cb.greaterThan(filmEntity.<LocalDate>get("premierDate"), filmSearchCriteria.getPremierDateFrom()));
-        }
-
-        if (filmSearchCriteria.getPremierDateTo() != null) {
+        } else if (filmSearchCriteria.getPremierDateTo() != null) {
             predicates.add(cb.lessThan(filmEntity.<LocalDate>get("premierDate"), filmSearchCriteria.getPremierDateTo()));
         }
 
@@ -120,7 +122,7 @@ public class FilmDAOImpl extends AbstractDao<FilmEntity, Integer> implements Fil
                 .where(cb.between(root.get("premierDate"), dateFrom, dateTo));
 
         final TypedQuery<Double> typedQuery = entityManager.createQuery(query);
-        return typedQuery.getSingleResult();
+        return typedQuery.getSingleResult().doubleValue();
     }
 
 // podpunkt e
@@ -159,9 +161,13 @@ public class FilmDAOImpl extends AbstractDao<FilmEntity, Integer> implements Fil
 // podpunkt g
     public void countStudioFilmsInYear(LocalDate year) {
 
+        CriteriaBuilder cb = entityManager.getCriteriaBuilder();
+        CriteriaQuery<StudioEntity> criteriaQuery = cb.createQuery(StudioEntity.class);
+        Root<StudioEntity> root = criteriaQuery.from(StudioEntity.class);
+        Join<FilmEntity, StudioEntity> films = root.join("films");
 
+        CriteriaQuery<StudioEntity> query = criteriaQuery.select(films)
+                .where(cb.equal(root.get("premierDate"), year)).groupBy(root.get("studioName"));
 
-
-
-    }
+        }
 }

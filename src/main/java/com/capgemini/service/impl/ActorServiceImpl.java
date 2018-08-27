@@ -28,11 +28,15 @@ public class ActorServiceImpl implements ActorService {
 
     private TransactionTemplate transactionTemplate;
 
-
     public ActorServiceImpl(PlatformTransactionManager transactionManager) {
         this.transactionTemplate = new TransactionTemplate(transactionManager);
     }
 
+    /**
+     * dodanie aktora
+     * @param actorTO
+     * @return
+     */
     @Override
     @Transactional
     public ActorTO addActor(ActorTO actorTO) {
@@ -40,11 +44,13 @@ public class ActorServiceImpl implements ActorService {
         if(actorTO == null) {
             return null;
         }
-
         ActorEntity actorEntity = actorRepository.save(ActorMapper.toActorEntity(actorTO));
         return ActorMapper.toActorTO(actorEntity);
     }
 
+    /*
+    podgląd aktora
+     */
     @Override
     @Transactional
     public ActorTO showActor(Integer id) {
@@ -54,22 +60,27 @@ public class ActorServiceImpl implements ActorService {
         return ActorMapper.toActorTO(actorRepository.findOne(id));
     }
 
+    /**
+     * edycja aktora
+     * @param actorTO
+     * @return
+     */
     @Override
     @Transactional
     public ActorTO editActor(ActorTO actorTO) {
         if(actorTO == null) {
             return null;
         }
-        /*Collection<FilmEntity> newFilms = new ArrayList<FilmEntity>();
-        newFilms = actorTO.getFilmEntities();
-        FilmDAO filmDAO;*/
-
 
         ActorEntity actorEntity = ActorMapper.toActorEntity(actorTO);
         actorRepository.update(actorEntity);
         return ActorMapper.toActorTO(actorEntity);
     }
 
+    /**
+     * usuwanie aktora
+     * @param id
+     */
     @Override
     @Transactional
     public void removeActor(Integer id) {
@@ -79,6 +90,10 @@ public class ActorServiceImpl implements ActorService {
         actorRepository.delete(id);
     }
 
+    /**
+     * metoda potrzebna do testów
+     * @return
+     */
     @Override
     public List<ActorTO> findAllActors() {
         return ActorMapper.map2TOs(actorRepository.findAll());

@@ -9,7 +9,9 @@ import java.util.Collection;
 import java.util.Date;
 
 @Entity
-@Table(name="film")
+@Table(name = "film"
+//        ,uniqueConstraints = @UniqueConstraint(columnNames = {"title", "premierDate", "country"})
+)
 public class FilmEntity extends BaseEntity{
 
     @Id
@@ -40,7 +42,7 @@ public class FilmEntity extends BaseEntity{
     private Boolean is3d;
 
     @Column(name="budget", length = 30)
-    private Long budget;
+    private Double budget;
 
     @Column(name="profit_total", length = 30)
     private Long profitTotal;
@@ -118,11 +120,11 @@ public class FilmEntity extends BaseEntity{
         this.is3d = is3d;
     }
 
-    public Long getBudget() {
+    public Double getBudget() {
         return budget;
     }
 
-    public void setBudget(Long budget) {
+    public void setBudget(Double budget) {
         this.budget = budget;
     }
 

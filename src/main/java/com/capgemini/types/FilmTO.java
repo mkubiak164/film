@@ -17,7 +17,7 @@ public class FilmTO {
     private LocalDate premierDate;
     private String country;
     private Boolean is3d;
-    private Long budget;
+    private Double budget;
     private Long profitTotal;
     private Long profit1stWeek;
     private Collection<ActorEntity> actorEntities;
@@ -27,7 +27,7 @@ public class FilmTO {
 
     }
 
-    public FilmTO(Integer id, String title, String kind, Enum type, Integer length, LocalDate premierDate, String country, Boolean is3d, Long budget, Long profitTotal, Long profit1stWeek, Collection<ActorEntity> actorEntities, StudioEntity studio) {
+    public FilmTO(Integer id, String title, String kind, Enum type, Integer length, LocalDate premierDate, String country, Boolean is3d, Double budget, Long profitTotal, Long profit1stWeek, Collection<ActorEntity> actorEntities, StudioEntity studio) {
         this.id = id;
         this.title = title;
         this.kind = kind;
@@ -43,7 +43,7 @@ public class FilmTO {
         this.studio = studio;
     }
 
-    public FilmTO(Integer id, String title, String kind, Enum type, Integer length, LocalDate premierDate, String country, Boolean is3d, Long budget, Long profitTotal, Long profit1stWeek) {
+    public FilmTO(Integer id, String title, String kind, Enum type, Integer length, LocalDate premierDate, String country, Boolean is3d, Double budget, Long profitTotal, Long profit1stWeek) {
         this.id = id;
         this.title = title;
         this.kind = kind;
@@ -123,11 +123,11 @@ public class FilmTO {
         this.is3d = is3d;
     }
 
-    public Long getBudget() {
+    public Double getBudget() {
         return budget;
     }
 
-    public void setBudget(Long budget) {
+    public void setBudget(Double budget) {
         this.budget = budget;
     }
 

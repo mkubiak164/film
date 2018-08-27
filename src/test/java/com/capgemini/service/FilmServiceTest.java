@@ -258,11 +258,10 @@ public class FilmServiceTest {
         FilmTO filmTO2 = new FilmTOBuilder().withTitle("pozniejszy").withPremierDate(date2).build();
         filmService.addFilm(filmTO2);
         LocalDate date3 = LocalDate.of(2003, 7, 6);
-        filmService.addFilm(filmTO2);
         LocalDate date4 = LocalDate.of(2010, 7, 6);
 
         //when
-        FilmSearchCriteria searchCriteria = new FilmSearchCriteria(null, null ,null ,null ,date3, date4 ,null, null );
+        FilmSearchCriteria searchCriteria = new FilmSearchCriteria(null, null ,null ,null, date3, date4 ,null, null );
         List<FilmEntity> foundFilms = filmService.findFilmBy(searchCriteria);
 
         //then
@@ -322,10 +321,10 @@ public class FilmServiceTest {
     public void shouldCalculateBudget() {
         //given
         LocalDate date1 = LocalDate.of(2001, 5, 6);
-        FilmTO filmTO = new FilmTOBuilder().withTitle("Programiści").withPremierDate(date1).withBudget(452000L).build();
+        FilmTO filmTO = new FilmTOBuilder().withTitle("Programiści").withPremierDate(date1).withBudget(452000d).build();
         filmService.addFilm(filmTO);
         LocalDate date2 = LocalDate.of(2009, 9, 6);
-        FilmTO filmTO2 = new FilmTOBuilder().withTitle("Programiści2").withPremierDate(date2).withBudget(250000L).build();
+        FilmTO filmTO2 = new FilmTOBuilder().withTitle("Programiści2").withPremierDate(date2).withBudget(250000d).build();
         filmService.addFilm(filmTO2);
         LocalDate date3 = LocalDate.of(2006, 2, 6);
         LocalDate date4 = LocalDate.of(2011, 2, 6);
@@ -334,7 +333,7 @@ public class FilmServiceTest {
         Double calculated = filmService.calculateBudget(date3, date4);
 
         //then
-        Assertions.assertThat(calculated).isEqualTo(250000D);
+        Assertions.assertThat(calculated).isEqualTo(250000d);
     }
 
     @Test
