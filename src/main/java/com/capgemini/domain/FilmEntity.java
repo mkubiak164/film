@@ -54,11 +54,6 @@ public class FilmEntity extends BaseEntity{
     @ManyToOne(cascade = CascadeType.REMOVE)
     private StudioEntity studio;
 
-    @Version
-    @Column(name="version")
-    private Long version;
-
-
     public Integer getId() {
         return id;
     }
@@ -163,11 +158,4 @@ public class FilmEntity extends BaseEntity{
         this.studio = studio;
     }
 
-    public Long getVersion() {
-        return version;
-    }
-
-    public void setVersion(Long version) {
-        this.version = version;
-    }
 }

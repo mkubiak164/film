@@ -4,9 +4,7 @@ import com.capgemini.dao.FilmDAO;
 import com.capgemini.domain.ActorEntity;
 import com.capgemini.domain.FilmEntity;
 import com.capgemini.domain.StudioEntity;
-import com.capgemini.types.ActorTO;
 import com.capgemini.types.FilmSearchCriteria;
-import com.capgemini.types.FilmTO;
 import org.springframework.stereotype.Repository;
 
 import javax.persistence.EntityManager;
@@ -107,7 +105,7 @@ public class FilmDAOImpl extends AbstractDao<FilmEntity, Integer> implements Fil
                 .orderBy(cb.desc(root.get("profitTotal")));
 
         final TypedQuery<Double> typedQuery = entityManager.createQuery(query);
-        return typedQuery/*.setMaxResults(howManyFilms)*/.getSingleResult();
+        return typedQuery.setMaxResults(howManyFilms).getSingleResult();
     }
 
 
@@ -124,7 +122,6 @@ public class FilmDAOImpl extends AbstractDao<FilmEntity, Integer> implements Fil
         final TypedQuery<Double> typedQuery = entityManager.createQuery(query);
         return typedQuery.getSingleResult();
     }
-
 
 // podpunkt e
     public List<ActorEntity> findNotPlayingActors(LocalDate dateFrom, LocalDate dateTo) {

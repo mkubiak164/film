@@ -1,8 +1,10 @@
 package com.capgemini.service.impl;
 
 import com.capgemini.dao.ActorDAO;
+import com.capgemini.dao.FilmDAO;
 import com.capgemini.dao.impl.ActorDAOImpl;
 import com.capgemini.domain.ActorEntity;
+import com.capgemini.domain.FilmEntity;
 import com.capgemini.mappers.ActorMapper;
 import com.capgemini.service.ActorService;
 import com.capgemini.types.ActorTO;
@@ -12,6 +14,8 @@ import org.springframework.transaction.PlatformTransactionManager;
 import org.springframework.transaction.support.TransactionTemplate;
 
 import javax.transaction.Transactional;
+import java.util.ArrayList;
+import java.util.Collection;
 import java.util.List;
 
 
@@ -36,9 +40,9 @@ public class ActorServiceImpl implements ActorService {
         if(actorTO == null) {
             return null;
         }
+
         ActorEntity actorEntity = actorRepository.save(ActorMapper.toActorEntity(actorTO));
         return ActorMapper.toActorTO(actorEntity);
-
     }
 
     @Override
@@ -56,6 +60,11 @@ public class ActorServiceImpl implements ActorService {
         if(actorTO == null) {
             return null;
         }
+        /*Collection<FilmEntity> newFilms = new ArrayList<FilmEntity>();
+        newFilms = actorTO.getFilmEntities();
+        FilmDAO filmDAO;*/
+
+
         ActorEntity actorEntity = ActorMapper.toActorEntity(actorTO);
         actorRepository.update(actorEntity);
         return ActorMapper.toActorTO(actorEntity);

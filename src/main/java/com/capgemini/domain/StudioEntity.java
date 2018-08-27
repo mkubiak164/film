@@ -33,10 +33,6 @@ public class StudioEntity extends BaseEntity {
     @ManyToOne
     private ActorEntity actorEntity;
 
-    @Version
-    @Column(name="version")
-    private Long version;
-
 
     public Integer getId() {
         return id;
@@ -78,14 +74,6 @@ public class StudioEntity extends BaseEntity {
         this.films = films;
     }
 
-    public Long getVersion() {
-        return version;
-    }
-
-    public void setVersion(Long version) {
-        this.version = version;
-    }
-
     public ActorEntity getActorEntity() {
         return actorEntity;
     }
@@ -93,6 +81,5 @@ public class StudioEntity extends BaseEntity {
     public void setActorEntity(ActorEntity actorEntity) {
         this.actorEntity = actorEntity;
     }
-
 
 }

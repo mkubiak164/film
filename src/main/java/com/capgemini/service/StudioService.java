@@ -1,6 +1,10 @@
 package com.capgemini.service;
 
+import com.capgemini.domain.StudioEntity;
 import com.capgemini.types.StudioTO;
+import com.sun.xml.internal.ws.api.ha.StickyFeature;
+
+import java.util.List;
 
 public interface StudioService {
 
@@ -12,5 +16,6 @@ public interface StudioService {
 
     void removeStudio(Integer id);
 
+    List<StudioTO> findAll();
 
 }

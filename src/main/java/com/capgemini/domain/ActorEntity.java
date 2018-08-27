@@ -36,9 +36,6 @@ public class ActorEntity extends BaseEntity {
                 )
     private Collection<FilmEntity> filmEntities;
 
-    @Version
-    @Column(name="version")
-    private Long version;
 
     public Integer getId() {
         return id;
@@ -88,11 +85,4 @@ public class ActorEntity extends BaseEntity {
         this.filmEntities = filmEntities;
     }
 
-    public Long getVersion() {
-        return version;
-    }
-
-    public void setVersion(Long version) {
-        this.version = version;
-    }
 }

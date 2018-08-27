@@ -60,14 +60,14 @@ public class ActorServiceTest {
     public void shouldShowActor() {
         //given
         ActorTO actorTO = new ActorTOBuilder().withFirstName("Marian").withLastName("Gałązka").build();
-        actorService.addActor(actorTO);
+        ActorTO actorTO1 = actorService.addActor(actorTO);
 
         //when
-        ActorTO actorTO1 = actorService.showActor(actorService.findAllActors().size());
+        ActorTO actorTO2 = actorService.showActor(actorTO1.getId());
 
         //then
-        Assertions.assertThat(actorTO1.getFirstName()).isEqualToIgnoringCase("Marian");
-        Assertions.assertThat(actorTO1.getLastName()).isEqualToIgnoringCase("Gałązka");
+        Assertions.assertThat(actorTO2.getFirstName()).isEqualToIgnoringCase("Marian");
+        Assertions.assertThat(actorTO2.getLastName()).isEqualToIgnoringCase("Gałązka");
     }
 
     @Test

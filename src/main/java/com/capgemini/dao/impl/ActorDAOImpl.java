@@ -8,5 +8,4 @@ import org.springframework.stereotype.Repository;
 public class ActorDAOImpl extends AbstractDao<ActorEntity, Integer> implements ActorDAO {
 
 
-
 }
